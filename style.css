@@ -1,0 +1,49 @@
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.navbar-brand img {
+  width: 100px;
+  border-radius: 100%;
+}
+.nav-link {
+  color: #ffc107 !important;
+}
+.carousel-item img {
+  height: 300px;
+  border-radius: 3px;
+}
+.col-md-2 img {
+  height: 300px;
+  width: 100%;
+  border-radius: 3px;
+}
+.img-wrap {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black !important;
+  font-size: 20px !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 200px;
+  }
+  iframe {
+    width: 350px;
+  }
+  .card.bg-dark {
+    width: 350px;
+  }
+}
+/* icecekler.html */
+#icecekler img {
+  height: 300px;
+  object-fit: cover;
+}
